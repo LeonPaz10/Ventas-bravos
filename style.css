@@ -685,7 +685,9 @@ h3.cart-title {
 
 @media only screen and (max-width: 991px) {
   #company-services .icon-box {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
