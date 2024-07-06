@@ -669,9 +669,16 @@ h3.cart-title {
   #billboard .image-holderr {
       margin-top: -390px;
       opacity: 0.3;
+      z-index: 1;
+      position: relative;
   }
   #billboard .swiper-arrow {
       top: 400px;
+  }
+
+  #billboard a{
+    position: absolute;
+    z-index: 2;
   }
 }
 
