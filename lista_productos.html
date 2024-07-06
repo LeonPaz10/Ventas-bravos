@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos y precios</title>
+    <link rel="stylesheet" href="./css/productos.css">
+</head>
+<body>
+    <a href="javascript:history.back()" class="back-arrow">&#8592; Volver</a>
+    <br>
+    <br>
+    
+    <h1>Lista de Productos y precios</h1>
+    <br>
+    <h4>Filtrar por</h4>
+    <br>    
+    <label for="brandFilter">Marca:</label>
+    <select id="brandFilter">
+        <option value="">Todas</option>
+        <!-- Opciones de marca se generarán dinámicamente -->
+    </select>
+    <label for="flavorFilter">Sabor:</label>
+    <select id="flavorFilter">
+        <option value="">Todos</option>
+        <!-- Opciones de sabor se generarán dinámicamente -->
+    </select>
+    <label for="puffsFilter">Puffs:</label>
+    <select id="puffsFilter">
+        <option value="">Todos</option>
+        <!-- Opciones de puffs se generarán dinámicamente -->
+    </select>
+    
+    <table id="productTable">
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Sabor</th>
+                <th>Puffs</th>
+                <th>Precio por Mayor</th>
+                <th>Precio por Unidad</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Productos se generarán dinámicamente -->
+        </tbody>
+    </table>
+
+    <script src="js/productos.js"></script>
+</body>
+</html>
