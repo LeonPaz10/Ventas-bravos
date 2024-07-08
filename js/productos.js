@@ -293,6 +293,16 @@ const products = [
 
     {
       
+        Marca: 'Hyperjoy',
+        Sabor: '-',
+        puffs: '10000',
+        precioMayorista: '8 usd',
+        precioUnidad: '8 usd',
+        Descripcion: ''
+    },
+
+    {
+      
         Marca: 'Elfbar lost mary',
         Sabor: 'Peach berry',
         puffs: '10000',
