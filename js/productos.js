@@ -4,64 +4,12 @@ const products = [
         Marca: 'Mamma Pro',
         Sabor: 'Limon',
         puffs: '1000',
-        precioMayorista: '$12.000',
+        precioMayorista: '$12.000 (caja)',
         precioUnidad: '$2500',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '10 u. Por caja (OFERTA)'
+        
     },
-    {
-      
-        Marca: 'Yoop Flow',
-        Sabor: 'Sandia',
-        puffs: '1500',
-        precioMayorista: '$30.000',
-        precioUnidad: '$4.500',
-        Descripcion: '10 u. Por caja'
-    },
-    {
-      
-        Marca: 'Yoop Flow',
-        Sabor: 'Melon',
-        puffs: '1500',
-        precioMayorista: '$30.000',
-        precioUnidad: '$4.500',
-        Descripcion: '10 u. Por caja'
-    },
-    {
-      
-        Marca: 'Jim',
-        Sabor: 'Mango',
-        puffs: '2000',
-        precioMayorista: '$45.000',
-        precioUnidad: '$5.000',
-        Descripcion: '10 u. Por caja'
-    },
-    {
-      
-        Marca: 'Jim',
-        Sabor: 'Guava',
-        puffs: '2000',
-        precioMayorista: '$45.000',
-        precioUnidad: '$5.000',
-        Descripcion: '10 u. Por caja'
-    },
-    {
-      
-        Marca: 'Jim',
-        Sabor: 'Sandia',
-        puffs: '2000',
-        precioMayorista: '$45.000',
-        precioUnidad: '$5.000',
-        Descripcion: '10 u. Por caja'
-    },
-    {
-      
-        Marca: 'Jim',
-        Sabor: 'Banana',
-        puffs: '2000',
-        precioMayorista: '$45.000',
-        precioUnidad: '$5.000',
-        Descripcion: '10 u. Por caja'
-    },
+    
 
     {
       
@@ -70,7 +18,7 @@ const products = [
         puffs: '5000',
         precioMayorista: '12 usd',
         precioUnidad: '17 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ' '
     },
     {
       
@@ -79,7 +27,7 @@ const products = [
         puffs: '8000',
         precioMayorista: '13 usd',
         precioUnidad: '18 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -89,7 +37,7 @@ const products = [
         puffs: '8000',
         precioMayorista: '13 usd',
         precioUnidad: '18 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -98,7 +46,7 @@ const products = [
         puffs: '8000',
         precioMayorista: '13 usd',
         precioUnidad: '18 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -116,63 +64,63 @@ const products = [
         Marca: 'Off-white',
         Sabor: 'uva',
         puffs: '6000',
-        precioMayorista: '60 usd',
+        precioMayorista: '60 usd (Caja)',
         precioUnidad: '6 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ' (OFERTA)'
     },
     {
       
         Marca: 'Off-white',
         Sabor: 'chicle',
         puffs: '6000',
-        precioMayorista: '60 usd',
+        precioMayorista: '60 usd (Caja)',
         precioUnidad: '6 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ' (OFERTA)'
     },
     {
       
         Marca: 'Off-white',
         Sabor: 'Banana',
         puffs: '6000',
-        precioMayorista: '60 usd',
+        precioMayorista: '60 usd (Caja)',
         precioUnidad: '6 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ' (OFERTA)'
     },
     {
       
         Marca: 'Off-white',
         Sabor: 'Frutilla mango',
         puffs: '6000',
-        precioMayorista: '60 usd',
+        precioMayorista: '60 usd (Caja)',
         precioUnidad: '6 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ' (OFERTA)'
     },
     {
       
         Marca: 'Off-white',
         Sabor: 'Frutilla',
         puffs: '6000',
-        precioMayorista: '60 usd',
+        precioMayorista: '60 usd (Caja)',
         precioUnidad: '6 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ' (OFERTA)'
     },
     {
       
         Marca: 'Off-white',
         Sabor: 'Sandia',
         puffs: '6000',
-        precioMayorista: '60 usd',
+        precioMayorista: '60 usd (Caja)',
         precioUnidad: '6 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ' (OFERTA)'
     },
     {
       
         Marca: 'Off-white',
         Sabor: 'Anana',
         puffs: '6000',
-        precioMayorista: '60 usd',
+        precioMayorista: '60 usd (Caja)',
         precioUnidad: '6 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ' (OFERTA)'
     },
 
     {
@@ -180,55 +128,67 @@ const products = [
         Marca: 'Tornado',
         Sabor: 'Doble Apple',
         puffs: '6000',
-        precioMayorista: '8 usd',
-        precioUnidad: '8 usd',
-        Descripcion: '10 u. Por caja'
+        precioMayorista: '9 usd',
+        precioUnidad: '18 usd',
+        Descripcion: ''
     },
     {
       
         Marca: 'Tornado',
         Sabor: 'Grape',
         puffs: '6000',
-        precioMayorista: '8 usd',
-        precioUnidad: '8 usd',
-        Descripcion: '10 u. Por caja'
+        precioMayorista: '9 usd',
+        precioUnidad: '18 usd',
+        Descripcion: ''
     },
     {
       
         Marca: 'Tornado',
         Sabor: 'Straw watermelon',
         puffs: '6000',
-        precioMayorista: '8 usd',
-        precioUnidad: '8 usd',
-        Descripcion: '10 u. Por caja'
+        precioMayorista: '9 usd',
+        precioUnidad: '18 usd',
+        Descripcion: ''
     },
     {
       
         Marca: 'Tornado',
         Sabor: 'Red apple limon',
         puffs: '6000',
-        precioMayorista: '8 usd',
-        precioUnidad: '8 usd',
-        Descripcion: '10 u. Por caja'
+        precioMayorista: '9 usd',
+        precioUnidad: '18 usd',
+        Descripcion: ''
     },
     {
       
         Marca: 'Tornado',
         Sabor: 'Blueraz',
         puffs: '6000',
-        precioMayorista: '8 usd',
-        precioUnidad: '8 usd',
-        Descripcion: '10 u. Por caja'
+        precioMayorista: '9 usd',
+        precioUnidad: '18 usd',
+        Descripcion: ''
     },
     {
       
         Marca: 'Tornado',
         Sabor: 'Menta',
         puffs: '6000',
-        precioMayorista: '8 usd',
-        precioUnidad: '8 usd',
-        Descripcion: '10 u. Por caja'
+        precioMayorista: '9 usd',
+        precioUnidad: '18 usd',
+        Descripcion: ''
     },
+    
+    {
+      
+        Marca: 'Tornado',
+        Sabor: 'Menta',
+        puffs: '10000',
+        precioMayorista: '10 usd',
+        precioUnidad: '10 usd',
+        Descripcion: ''
+    },
+
+
 
     {
       
@@ -237,7 +197,7 @@ const products = [
         puffs: '7000',
         precioMayorista: '9 usd',
         precioUnidad: '12 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -246,7 +206,7 @@ const products = [
         puffs: '7000',
         precioMayorista: '9 usd',
         precioUnidad: '12 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -255,7 +215,7 @@ const products = [
         puffs: '7000',
         precioMayorista: '9 usd',
         precioUnidad: '12 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -265,7 +225,7 @@ const products = [
         puffs: '9000',
         precioMayorista: '13 usd',
         precioUnidad: '18 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -274,7 +234,7 @@ const products = [
         puffs: '15000',
         precioMayorista: '15 usd',
         precioUnidad: '20 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -283,7 +243,7 @@ const products = [
         puffs: '15000',
         precioMayorista: '15 usd',
         precioUnidad: '20 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -292,7 +252,7 @@ const products = [
         puffs: '15000',
         precioMayorista: '15 usd',
         precioUnidad: '20 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -301,7 +261,7 @@ const products = [
         puffs: '15000',
         precioMayorista: '15 usd',
         precioUnidad: '20 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -310,7 +270,7 @@ const products = [
         puffs: '15000',
         precioMayorista: '15 usd',
         precioUnidad: '20 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -319,7 +279,7 @@ const products = [
         puffs: '15000',
         precioMayorista: '15 usd',
         precioUnidad: '20 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -328,7 +288,7 @@ const products = [
         puffs: '15000',
         precioMayorista: '15 usd',
         precioUnidad: '20 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -338,7 +298,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -347,7 +307,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -356,7 +316,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -365,7 +325,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -374,7 +334,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -383,7 +343,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -392,7 +352,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -401,7 +361,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -410,7 +370,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -419,7 +379,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
     {
       
@@ -428,7 +388,7 @@ const products = [
         puffs: '10000',
         precioMayorista: '12 usd',
         precioUnidad: '16 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: '(OFERTA)'
     },
 
     {
@@ -438,7 +398,7 @@ const products = [
         puffs: '15000',
         precioMayorista: '16 usd',
         precioUnidad: '21 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -448,7 +408,7 @@ const products = [
         puffs: '18000',
         precioMayorista: '18 usd',
         precioUnidad: '18 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -458,7 +418,7 @@ const products = [
         puffs: '20000',
         precioMayorista: '18',
         precioUnidad: '18 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -467,7 +427,7 @@ const products = [
         puffs: '23000',
         precioMayorista: '18 usd',
         precioUnidad: '23 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -476,8 +436,8 @@ const products = [
         Sabor: 'Grape ice',
         puffs: '12000',
         precioMayorista: '15 usd',
-        precioUnidad: '15 usd',
-        Descripcion: '10 u. Por caja'
+        precioUnidad: '20 usd',
+        Descripcion: ''
     },
     {
       
@@ -485,8 +445,8 @@ const products = [
         Sabor: 'Blueberry ice',
         puffs: '12000',
         precioMayorista: '15 usd',
-        precioUnidad: '15 usd',
-        Descripcion: '10 u. Por caja'
+        precioUnidad: '20 usd',
+        Descripcion: ''
     },
     {
       
@@ -494,8 +454,8 @@ const products = [
         Sabor: 'Frutilla con banana',
         puffs: '12000',
         precioMayorista: '15 usd',
-        precioUnidad: '15 usd',
-        Descripcion: '10 u. Por caja'
+        precioUnidad: '20 usd',
+        Descripcion: ''
     },
     {
       
@@ -503,8 +463,8 @@ const products = [
         Sabor: 'Triple berry',
         puffs: '12000',
         precioMayorista: '15 usd',
-        precioUnidad: '15 usd',
-        Descripcion: '10 u. Por caja'
+        precioUnidad: '20 usd',
+        Descripcion: ''
     },
     {
       
@@ -512,8 +472,8 @@ const products = [
         Sabor: 'Black ice',
         puffs: '12000',
         precioMayorista: '15 usd',
-        precioUnidad: '15 usd',
-        Descripcion: '10 u. Por caja'
+        precioUnidad: '20 usd',
+        Descripcion: ''
     },
 
     {
@@ -523,7 +483,7 @@ const products = [
         puffs: '12000',
         precioMayorista: '11 usd',
         precioUnidad: '13 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -532,7 +492,7 @@ const products = [
         puffs: '12000',
         precioMayorista: '11 usd',
         precioUnidad: '13 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -541,7 +501,7 @@ const products = [
         puffs: '12000',
         precioMayorista: '11 usd',
         precioUnidad: '13 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -550,7 +510,7 @@ const products = [
         puffs: '12000',
         precioMayorista: '11 usd',
         precioUnidad: '13 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -560,7 +520,7 @@ const products = [
         puffs: '12000',
         precioMayorista: '12 usd',
         precioUnidad: '12 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -569,7 +529,7 @@ const products = [
         puffs: '12000',
         precioMayorista: '12 usd',
         precioUnidad: '12 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
 
@@ -580,7 +540,7 @@ const products = [
         puffs: '20000',
         precioMayorista: '16 usd',
         precioUnidad: '20 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -590,7 +550,7 @@ const products = [
         puffs: '30000',
         precioMayorista: '17 usd',
         precioUnidad: '17 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -599,7 +559,7 @@ const products = [
         puffs: '30000',
         precioMayorista: '17 usd',
         precioUnidad: '17 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -608,7 +568,7 @@ const products = [
         puffs: '30000',
         precioMayorista: '17 usd',
         precioUnidad: '17 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -617,7 +577,7 @@ const products = [
         puffs: '30000',
         precioMayorista: '17 usd',
         precioUnidad: '17 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
@@ -626,7 +586,7 @@ const products = [
         puffs: '30000',
         precioMayorista: '17 usd',
         precioUnidad: '17 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
 
     {
@@ -649,7 +609,7 @@ const products = [
     },
     {
       
-        Marca: 'Smok',
+        Marca: 'Smok v2',
         Sabor: '-',
         puffs: '-',
         precioMayorista: '18 usd',
@@ -681,15 +641,24 @@ const products = [
         puffs: '40000',
         precioMayorista: '30 usd',
         precioUnidad: '40 usd',
-        Descripcion: '10 u. Por caja'
+        Descripcion: ''
     },
     {
       
         Marca: 'VAPORESSO GTX GO 40 ',
         Sabor: '-',
         puffs: '-',
-        precioMayorista: '23 usd',
-        precioUnidad: '33 usd',
+        precioMayorista: '16 usd',
+        precioUnidad: '25 usd',
+        Descripcion: 'Equipo'
+    },
+    {
+      
+        Marca: 'E8 ',
+        Sabor: '-',
+        puffs: '-',
+        precioMayorista: '12 usd',
+        precioUnidad: '-',
         Descripcion: 'Equipo'
     },
     {
@@ -708,7 +677,6 @@ const products = [
 
     
 ];
-
 
 
 const brandFilter = document.getElementById('brandFilter');
@@ -771,13 +739,13 @@ function filterProducts() {
     const filteredProducts = products.filter(product => {
         return (selectedBrand === '' || product.Marca === selectedBrand) &&
                (selectedFlavor === '' || product.Sabor === selectedFlavor) &&
-               (selectedPuffs === '' || product.puffs === selectedPuffs); // Comparar directamente como cadena
+               (selectedPuffs === '' || product.puffs === selectedPuffs);
     });
 
     displayProducts(filteredProducts);
 }
 
-// Añadir event listeners a los filtros
+// Añadir eventos a los filtros
 brandFilter.addEventListener('change', filterProducts);
 flavorFilter.addEventListener('change', filterProducts);
 puffsFilter.addEventListener('change', filterProducts);
