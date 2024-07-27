@@ -1,14 +1,4 @@
 const products = [
-    {
-       
-        Marca: 'Mamma Pro',
-        Sabor: 'Limon',
-        puffs: '1000',
-        precioMayorista: '$12.000 (caja)',
-        precioUnidad: '$2500',
-        Descripcion: '10 u. Por caja (OFERTA)'
-        
-    },
     
 
     {
@@ -195,8 +185,8 @@ const products = [
         Marca: 'Frozen',
         Sabor: 'Guava',
         puffs: '7000',
-        precioMayorista: '9 usd',
-        precioUnidad: '12 usd',
+        precioMayorista: '5 usd',
+        precioUnidad: '',
         Descripcion: ''
     },
     {
@@ -204,8 +194,8 @@ const products = [
         Marca: 'Frozen',
         Sabor: 'Mamba',
         puffs: '7000',
-        precioMayorista: '9 usd',
-        precioUnidad: '12 usd',
+        precioMayorista: '5 usd',
+        precioUnidad: '',
         Descripcion: ''
     },
     {
@@ -213,8 +203,8 @@ const products = [
         Marca: 'Frozen',
         Sabor: 'Mango',
         puffs: '7000',
-        precioMayorista: '9 usd',
-        precioUnidad: '12 usd',
+        precioMayorista: '5 usd',
+        precioUnidad: '',
         Descripcion: ''
     },
 
@@ -416,8 +406,8 @@ const products = [
         Marca: 'Elfbar fs',
         Sabor: '',
         puffs: '18000',
-        precioMayorista: '18 usd',
-        precioUnidad: '18 usd',
+        precioMayorista: '17 usd',
+        precioUnidad: '17 usd',
         Descripcion: ''
     },
 
@@ -435,7 +425,7 @@ const products = [
         Marca: 'Elfbar gh',
         Sabor: '',
         puffs: '23000',
-        precioMayorista: '18 usd',
+        precioMayorista: '19 usd',
         precioUnidad: '23 usd',
         Descripcion: ''
     },
